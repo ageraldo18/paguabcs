@@ -26,7 +26,7 @@ footer{
 	display: inline-block;
     float: left;
 	width: 100%;
-    margin-top: 170px;
+    margin-top: 50px;
 	height:70px;
 }
 
@@ -66,18 +66,31 @@ h3{
 	height:20px;
 	padding-top: 30px;
 }
-.div-dere{
+body .div-dere{
 	text-align: right;
 	width: 50%;
 	height: 500px;
 	align-content: center;
 	float: left;
 }
-.div-izquierda{
-	float: right;
+
+body .div-dere img{
+    width: 700px;
+    height: 400px;
+}
+
+body .div-izquierda{
+    margin-top: 120px;
+    float: left;
 	width: 50%;
 	height: 500px;
 }
+
+body .div-izquierda div{
+    margin-left:80px;
+    margin-bottom: 10px;
+}
+
 .div-conta{
 	width: 100%;
 	height: 50px;
@@ -118,7 +131,7 @@ body header .div-info li a{
 .oferta{
 	text-align: center;
 	margin-top: 20px;
-	color: blue;
+	color: black;
 	font-size: 20px;
 	margin-bottom: 30px;
 }
@@ -142,10 +155,6 @@ body header .div-info li a{
 }
 .line-h2{
 	color: green;
-}
-.cuadro-text{
-	margin-top: 70px;
-	margin-left: 3em;
 }
 .btn{
 	background-color: #30608F;
@@ -237,6 +246,7 @@ body header .div-info li a{
     }
     
     body .div-izquierda{
+        margin-top: 10px;
         width: 100%;
         float: left;
     }
@@ -271,7 +281,7 @@ body header .div-info li a{
     
     body footer{
         float: left;
-        margin-top: 200px;
+        margin-top: 10px;
     }
     
 }
